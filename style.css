@@ -5,6 +5,7 @@
     text-decoration: none;
     list-style: none;
     font-family: 'Times New Roman', Times, serif;
+    flex-wrap: wrap;
 }
 
 body{
