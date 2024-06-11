@@ -18,6 +18,7 @@ header{
     background-color: white;
     padding: 20px;
     align-items: center;
+    box-shadow: 2px 2px 3px 2px orangered;
 }
 
 
@@ -56,7 +57,6 @@ header button a{
     gap: 30px;
     font-size: 25px;
     font-weight: 600;
-    
 }
 
 .menu-header a{
@@ -66,10 +66,10 @@ header button a{
 
 /*configuração do BLOCO-01*/
 .bloco-01{
-    background-color: rgba(255, 166, 0, 0.726)red;
     width: 100%;
     height: 70vh;
-    
+    background-color: black;
+    padding: 20px;
 }
 
 .bloco-01 h1{
@@ -91,54 +91,88 @@ header button a{
 
 /*configuração do BLOCO-02*/
 .bloco-02{
-    display: block;
     width: 100%;
-    height: 90vh;
-    background-color: orange;
+    height: 70vh;
+    background-color: white;
+    padding: 25px;
+}
+
+.bloco-02 .div-pai{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.bloco-02 div{
+    display: block;
+    justify-content: space-evenly;
+    gap: 20px;
 }
 
 .bloco-02 h1{
     text-align: center;
-    padding: 3rem;
+    padding: 2rem;
 }
 
-.bloco-02 div{
-    display: flex;
-    justify-content: space-evenly;
+.bloco-02 h3{
+    text-align: center;
+    padding: 1rem;
 }
-
-
 
 .bloco-02 .img-all-blocos{
-    width: 280px;
-    height: 250px;
+    width: 270px;
+    height: 240px;
+    box-shadow: 2px 2px 8px 2px orangered;
 }
 
-.bloco-02 .display-all-div{
-    display: block;
+.div-pai p{
+    width: 270px;
+    text-align: center;
 }
 
-.bloco-02 .display-all-div .div-btn button{
-    box-shadow: 0px 0px 1px 0px black;
-    border-radius: 5px;
-    min-width: 10em;
-    height: 30px;
-    margin-bottom: 15px;
+.div-pai .one{
+    font-weight: bold;
+    margin-top: 20px;
 }
 
-.bloco-02 .display-all-div .div-img{
-    box-shadow: 2px 2px 5px 2px black;
-}
+
 
 /*configuração do BLOCO-03*/
 .bloco-03{
-    background-image: url(novo-cartao-postal-sp.jpg);
+    /* background-image: url(img/back-missao.jpg);
     background-size: 100%;
-    background-attachment: fixed;
+    background-attachment: fixed; */
     width: 100%;
-    height: 70vh;
+    height: 15vh;
+    background-color: black;
+    text-align: center;
+    color: white;
 }
 
+.bloco-03 h2{
+    padding: 15px;
+}
+
+.bloco-03 p{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.bloco-04{
+    width: 100%;
+    height: 40vh;
+    background-color: rgba(255, 68, 0, 0.793);
+    padding: 25px;
+    color: black;
+    text-align: center;
+}
+
+
+.bloco-04 p{
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 25px;
+    max-width: 80rem;
+}
 
 /*configuração do FOOTER*/
 footer{
