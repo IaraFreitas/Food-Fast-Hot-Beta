@@ -1,0 +1,156 @@
+/*configuração GLOBAL*/
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    height: 100vh;
+}
+
+/*configuração do HEADER*/
+header{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    padding: 20px;
+    align-items: center;
+}
+
+
+header nav{
+   gap: 10px;
+   margin-left: 50rem;  
+  
+}
+
+header button{
+    background-color: white;
+    border: none;
+    
+}
+
+header button a{
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+    
+}
+
+.logo-header{
+    width: 50px;
+    height: 50px;
+    
+}
+
+.logo-btn-header{
+    width: 40px;
+    height: 40px;
+}
+
+.menu-header{
+    display: flex;
+    gap: 30px;
+    font-size: 25px;
+    font-weight: 600;
+    
+}
+
+.menu-header a{
+    color: black;
+}
+
+
+/*configuração do BLOCO-01*/
+.bloco-01{
+    background-color: black;
+    color: white;
+}
+
+.bloco-01 h1{
+    padding: 1rem;
+    text-align: center;
+}
+
+.bloco-01 p{
+    text-align: justify;
+    font-size: 20px;
+    padding: 1.5rem;
+}
+
+.bloco-01 #video-sp {
+    height: 70vh;
+    width: 100%;
+    
+  }
+
+/*configuração do BLOCO-02*/
+.bloco-02{
+    display: block;
+    width: 100%;
+    height: 90vh;
+    background-color: orange;
+}
+
+.bloco-02 h1{
+    text-align: center;
+    padding: 3rem;
+}
+
+.bloco-02 div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+.bloco-02 .img-all-blocos{
+    width: 280px;
+    height: 250px;
+}
+
+.bloco-02 .display-all-div{
+    display: block;
+}
+
+.bloco-02 .display-all-div .div-btn button{
+    box-shadow: 0px 0px 1px 0px black;
+    border-radius: 5px;
+    min-width: 10em;
+    height: 30px;
+    margin-bottom: 15px;
+}
+
+.bloco-02 .display-all-div .div-img{
+    box-shadow: 2px 2px 5px 2px black;
+}
+
+/*configuração do BLOCO-03*/
+.bloco-03{
+    background-image: url(novo-cartao-postal-sp.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 70vh;
+}
+
+
+/*configuração do FOOTER*/
+footer{
+    margin: 0 auto;
+    padding: 3rem;
+    background-color: black;
+}
+footer img{
+    width: 50px;
+    height: 50px;
+}
+
+footer a{
+    color: white;
+    font-weight: 500;
+    
+}

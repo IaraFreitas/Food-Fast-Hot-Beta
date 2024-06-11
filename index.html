@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Best of SP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="bandeira-do-estado-de-sao-paulo-no-brasil_2227-718.avif" type="image/x-icon">
+</head>
+
+<body>
+
+    <header>
+
+        <img class="logo-header" src="logo-header.png" alt="logoHeader">
+
+        <nav>
+            <ul class="menu-header">
+                <li><a href="">Menu</a></li>
+                <li><a href="">Locais</a></li>
+                <li><a href="">Sobre Nós</a></li>
+            </ul>
+        </nav>
+
+        <button>
+            <a href=""> <img class="logo-btn-header" src="logo-btn-header.png" alt="logoBtnHeader">
+                 Cadastro
+            </a>
+        </button>
+
+    </header>
+
+    <div class="bloco-01">
+
+        <h1>The Best of São Paulo</h1>
+
+        <video autoplay muted loop id="video-sp">
+            <source src="video-sp.mp4" type="video/mp4">
+        </video>
+
+        <p>"The Best of São Paulo" celebra a diversidade e a excelência nos serviços e experiências que fazem de São Paulo uma cidade vibrante e inovadora. É uma referência tanto para moradores quanto para visitantes em busca do melhor que a cidade tem a oferecer.</p>
+    
+    </div>
+
+
+        <div class="bloco-02">
+
+            <h1>Pontos Turísticos</h1>
+
+            <div>
+
+                <div class="display-all-div">
+                    <div class="div-btn"><button onclick="changeImageMuseum()">Museus >> </button></div>
+                    <div class="div-img"><img class="img-all-blocos" src="Museum-Portuguese-Language.avif" alt="museumOne" id="museums"></div>
+                </div>
+        
+                <div class="display-all-div">
+                    <div class="div-btn"> <button onclick="changeImageLugares()">Lugares >> </button> </div>
+                    <div class="div-img"> <img class="img-all-blocos" src="lugares-1-LuzStation.jpg" alt="lugarOne" id="lugares"> </div>
+                </div>
+        
+                <div class="display-all-div">
+                    <div class="div-btn"> <button onclick="changeImageCtoCultural()">Centros Culturais >> </button> </div>
+                    <div class="div-img"> <img class="img-all-blocos" src="cto-cultural-1-CCBB.jpg" alt="ctoCulturalOne" id="cto-cultural"> </div>
+                </div>
+            </div>
+    
+        </div>
+
+        <div class="bloco-03">
+
+            <!-- colocar no bacground attachment o atual cartão posta de SP de acordom com o Estadão -->
+
+        </div>
+    
+
+    <footer>
+        <a href=""><img src="whatsapp.jpg" alt="logoWhatsApp"> (11)99999-9999</a>
+    </footer>
+
+    
+    <script src="script.js"></script>
+
+</body>
+
+</html>
