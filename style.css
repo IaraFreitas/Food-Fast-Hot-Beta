@@ -11,8 +11,19 @@ body{
     height: 100vh;
 }
 
+
+
+/*responsividade*/
+@media screen and (max-width: 400px){
+    height: 100vh;
+    width: 100vw;
+}
+
+
 /*configuração do HEADER*/
 header{
+    position: sticky;
+    top: 0;
     display: flex;
     justify-content: space-evenly;
     background-color: white;
@@ -21,41 +32,36 @@ header{
     box-shadow: 2px 2px 3px 2px orangered;
 }
 
-
 header nav{
    gap: 10px;
    margin-left: 50rem;  
-  
 }
 
 header button{
     background-color: white;
     border: none;
-    
 }
 
 header button a{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 600;
     color: black;
-    
 }
 
 .logo-header{
-    width: 50px;
-    height: 50px;
-    
+    width: 60px;
+    height: 60px;
 }
 
 .logo-btn-header{
-    width: 40px;
-    height: 40px;
+    width: 20px;
+    height: 20px;
 }
 
 .menu-header{
     display: flex;
     gap: 30px;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 600;
 }
 
@@ -65,60 +71,60 @@ header button a{
 
 
 /*configuração do BLOCO-01*/
-.bloco-01{
+#bloco-01{
     width: 100%;
     height: 70vh;
-    background-color: black;
+    background-color: rgba(255, 68, 0, 0.742);
     padding: 20px;
 }
 
-.bloco-01 h1{
+#bloco-01 h1{
     padding: 1rem;
     text-align: center;
 }
 
-.bloco-01 p{
+#bloco-01 p{
     text-align: justify;
     font-size: 20px;
     padding: 1.5rem;
 }
 
-.bloco-01 #video-sp {
+#bloco-01 #video-sp {
     height: 70vh;
     width: 100%;
     
   }
 
 /*configuração do BLOCO-02*/
-.bloco-02{
+#bloco-02{
     width: 100%;
     height: 70vh;
     background-color: white;
     padding: 25px;
 }
 
-.bloco-02 .div-pai{
+#bloco-02 .div-pai{
     display: flex;
     margin-bottom: 20px;
 }
 
-.bloco-02 div{
+#bloco-02 div{
     display: block;
     justify-content: space-evenly;
     gap: 20px;
 }
 
-.bloco-02 h1{
+#bloco-02 h1{
     text-align: center;
     padding: 2rem;
 }
 
-.bloco-02 h3{
+#bloco-02 h3{
     text-align: center;
     padding: 1rem;
 }
 
-.bloco-02 .img-all-blocos{
+#bloco-02 .img-all-blocos{
     width: 270px;
     height: 240px;
     box-shadow: 2px 2px 8px 2px orangered;
@@ -134,10 +140,20 @@ header button a{
     margin-top: 20px;
 }
 
-
+/*configuração do BLOCO-03*/
+#bloco-03{
+    width: 100%;
+    height: 80vh;
+    background-image: url(img/logomarca.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 70% 90%;
+    background-color: orangered;
+    background-position: bottom;
+}
 
 /*configuração do BLOCO-04*/
-.bloco-04{
+#bloco-04{
     width: 100%;
     height: 60vh;
     background-color: rgba(255, 68, 0, 0.793);
@@ -145,12 +161,12 @@ header button a{
     color: black;
 }
 
-.bloco-04 h2{
+#bloco-04 h2{
     text-align: center;
     margin-top: 25px;
 }
 
-.bloco-04 p{
+#bloco-04 p{
     font-weight: 500;
     font-size: 19px;
     margin-top: 30px;
@@ -160,18 +176,40 @@ header button a{
 }
 
 /*configuração do FOOTER*/
-footer{
-    margin: 0 auto;
-    padding: 3rem;
+#footer{
+    padding: 4rem;
     background-color: black;
-}
-footer img{
-    width: 50px;
-    height: 50px;
+    display: flex
+    
 }
 
-footer a{
+#footer .redeSocial{
+    padding-bottom: 20px;
+}
+
+#footer .redeSocial i{
+    justify-content: center;
+    font-size: 30px;
+    margin-left: 60px;
+    align-content: end;
+}
+
+
+#footer a{
     color: white;
     font-weight: 500;
-    
+
+}
+
+#footer hr{
+    margin: 0 auto;
+    width: 20%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 6px white;
+}
+
+#footer .desenvolvido{
+    text-align: center;
+    margin-top: 20px;
 }
